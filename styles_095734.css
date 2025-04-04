@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-style: oblique;
+  background: url("https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?auto=compress&cs=tinysrgb&w=600")
+    center/cover no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.logo {
+  width: 50px;
+  position: center;
+  cursor: pointer;
+  margin-left: -2%;
+  margin-top: -3%;
+}
+
+header {
+  background-color: rgba(52, 52, 52, 0.6);
+  padding: 30px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+}
+
+nav ul li {
+  margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+
+nav ul li a {
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+  color: darkred;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: oblique;
+  color: blue;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  max-width: 400px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  color: rgb(24, 3, 3);
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f39c12;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #110404;
+}
